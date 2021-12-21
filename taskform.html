@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE-Edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <style>
+            .container{
+                padding: 50px;
+                text-align: center;
+                background-image:url(./global.jfif) ;
+                height:720px ;
+                background-size:cover ;
+                background-repeat: no-repeat;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <form target="_self">
+       <h1 style="text-align: center;">STUDENT REGISTRATION FORM</h1>
+       <hr>
+       <div id="name-element">
+       <label>Name :</label><br>
+       <input type="text" name="Name" placeholder="Name" size="25" required/><br></div>
+       <div id="number-element">
+       <label>Age :</label><br>
+       <input type="number" name="Age" placeholder="Age" size="25" required/><br></div>
+       <div id="mail">
+       <label>Email :</label><br>
+       <input type="email" name="Email" placeholder="Email" size="25" rwquired/><br></div>
+       <div id="confedential">
+       <label>Password :</label><br>
+       <div id="pwd">
+       <input type="password" name="Password" placeholder="Password" size="25" required/><br><br></div>
+       <div id="last">
+       <button onclick="validateform()">Register</button></div>
+       </form>
+       </div>
+       <script src="./form.js"></script>
+    </body>
+</html> 
